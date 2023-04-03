@@ -1,4 +1,6 @@
-# heart_attack_analysis: This dataset is obtained from Kaggle. It consists of multiple features which are recorded during diagnosis of patients and which are then used to 
+# Heart_Attack_analysis 
+
+This dataset is obtained from Kaggle. It consists of multiple features which are recorded during diagnosis of patients and which are then used to 
 find the probability of a person having a heart attack; 0 => Low probability, 1 => High Probability
 
 -- About the dataset -- 
