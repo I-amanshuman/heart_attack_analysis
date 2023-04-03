@@ -165,5 +165,69 @@ Pivoting the table contents,  to then using swarm plots and box plots for variab
 
 As we can see on the plot, 
 
+![image](https://user-images.githubusercontent.com/77953290/229487049-7b99e5f6-0c78-4455-bba1-5fd13ca99279.png)
+
+For the variable, thalachh, slope is clearly distinct for its values 0, 1 and 2
+
+![image](https://user-images.githubusercontent.com/77953290/229487911-9f9990ca-8ca4-4d32-961d-eaa3e5d2452e.png)
+
+In the box plot, the closer the medians are, the least correlated the items are.
+
+![image](https://user-images.githubusercontent.com/77953290/229488094-788b30c2-dbd2-4956-8852-620c9a6536ef.png)
+
+
+thalachh and slope clearly are correlated
+
+-- Heatmap Analysis --
+
+![image](https://user-images.githubusercontent.com/77953290/229488732-af848be9-6c8c-43e7-a7d1-a4e927c02d89.png)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Modelling the data
+
+Determining distribution of numeric variables after treating outliers:
+
+![image](https://user-images.githubusercontent.com/77953290/229489003-aea75dfb-2cf5-4505-8590-439e58d244ec.png)
+
+
+One Hot Encoding for categorical variables:
+
+![image](https://user-images.githubusercontent.com/77953290/229489283-37ca64c1-a6ae-4e98-8302-5c8b1abb8033.png)
+
+
+Scaling the data and splitting the dataset for training and testing
+
+- Logistic Regression: Plotting ROC - AUC
+
+![image](https://user-images.githubusercontent.com/77953290/229489504-62914066-73e9-4335-a32a-13794829a4fa.png)
+
+
+- Decision Tree classifier: ROC - AUC
+
+![image](https://user-images.githubusercontent.com/77953290/229489645-8f314c1f-827d-4236-b9dd-cab47474295f.png)
+
+- SVM Classifier: ROC - AUC
+
+![image](https://user-images.githubusercontent.com/77953290/229489761-d15b267e-537d-42d0-99f5-c6691811d4f8.png)
+
+
+- Random Forest Classifier: ROC - AUC
+
+![image](https://user-images.githubusercontent.com/77953290/229489863-753f8058-6e9e-43b1-8924-97b5111c8e01.png)
+
+- Hyperparameter tuning on the Random Forest Classifier: Resulting in 0.93 (Best prediction yet)
+
+![image](https://user-images.githubusercontent.com/77953290/229490002-ddb70e54-71fb-4e3d-8f04-1d864a8110d3.png)
+
+Conclusion:
+
+We will be using RF Classifier to predict whether a certain individual has the probability of heart attack based on the mentioned criterions
+
+
+
+
 
 
