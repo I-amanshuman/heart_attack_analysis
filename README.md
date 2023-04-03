@@ -138,7 +138,32 @@ Using countplot, to analyze the categorical features with target variable
 
 ![image](https://user-images.githubusercontent.com/77953290/229475657-39ef4053-eb29-4a63-86a2-51ea5139fb39.png)
 
+Analysis of Output:
 
+On patients with sex = 0, i.e woman, risk of heart attack is half of those of men (1)
+CP is the type of pain: probability of heart attack is almost none for 0 but 3x times higher on other cases
+Fasting blood sugar, patients with fasting blood sugar higher than 120 are more susceptible to heart attacks
+Rest ECG of value 1: Probability of having a HEART attack is 2x whereas is different in other cases
+exang: Exercise induced angina: PAIN DUE TO EXERCISE, does not affect heart attack, as showed by graph with value 1
+Slope: Patients with slope variable of 2 are 3 times more riskier of having a heart attack
+CAA: Patients with a CAA value of 0 have a highers chance of having a heart attack than the other patients
+thall: For thall: 2, we find that the value that draws our attention is the value 2, we can say that for other values that the incidence is reversed
+Patients of having a risk of heart attack are more.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Feature Scaling: We are using Robust Scaler to scale our numeric features. Robust Scaler gives better results in data with outliers, because it removes the outliers and places them in the 1st and 3rd quartile of the data
+
+
+Concatenating with the categorical variables and our scaled features:
+
+Pivoting the table contents,  to then using swarm plots and box plots for variable analysis, i.e numerical variables with each categorical variables:
+
+
+As we can see on the plot, 
 
 
 
